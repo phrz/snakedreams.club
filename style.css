@@ -112,9 +112,9 @@ figcaption {
 	color: red;
 }
 
-.page-nav .nav-list a:visited {
+/*.page-nav .nav-list a:visited {
 	color: #cc99ff;
-}
+}*/
 
 .page-main {
 	flex-grow: 1;
