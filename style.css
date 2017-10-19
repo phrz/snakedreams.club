@@ -103,7 +103,7 @@ figcaption {
 	text-decoration: none;
 }
 
-.page-nav .nav-list a:hover {
+.page-nav .nav-list a:hover, .page-nav .nav-list a:visited:hover {
 	font-style: italic;
 	text-decoration: underline;
 }
