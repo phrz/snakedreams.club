@@ -20,9 +20,18 @@ body {
 	min-height: 100%;
 	font-family: 'Times New Roman', serif;
 	color: #000;
-	background-color: #fff;
 	margin: 0;
 	align-items: stretch;
+	padding: 0.8rem;
+}
+
+aside {
+	text-align: center;
+}
+
+figure img {
+	max-width: 100%;
+	height: auto;
 }
 
 figcaption {
@@ -64,13 +73,18 @@ figcaption {
 	flex-basis: 50%;
 }
 
+.shrink {
+	flex-shrink: 1;
+}
+
 .page-nav {
 	width: 100%;
 	background: teal;
-	border: 5px groove teal;
+	border: 4px outset teal;
 	padding: 1rem;
 	color: white;
 	text-shadow: 0.2em 0.2em 0 rgba(0,0,0,0.5);
+	margin: 0 0 0.8rem 0;
 }
 
 .nav-list {
@@ -105,6 +119,8 @@ figcaption {
 .page-main {
 	flex-grow: 1;
 	padding: 2rem;
+	border: 4px outset;
+	background-color: #fff;
 }
 
 .hit-count {
@@ -112,19 +128,26 @@ figcaption {
 	text-align: center;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 	body {
 		font-size: 1.2rem;
 	}
-	.row {
+	.row-small {
 		flex-direction: row;
 	}
 	.page-nav {
 		width: 300px;
 		flex-shrink: 0;
 		padding-top: 2.25rem;
+		margin: 0 0.8rem 0 0;
 	}
 	.snake-green {
 		margin: 1rem 0 2rem;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.row-large {
+		flex-direction: row;
 	}
 }
