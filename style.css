@@ -118,7 +118,7 @@ figcaption {
 
 .page-main {
 	flex-grow: 1;
-	padding: 2rem;
+	padding: 1rem;
 	border: 4px outset;
 	background-color: #fff;
 }
@@ -140,6 +140,9 @@ figcaption {
 		flex-shrink: 0;
 		padding-top: 2.25rem;
 		margin: 0 0.8rem 0 0;
+	}
+	.page-main {
+		padding: 2rem;
 	}
 	.snake-green {
 		margin: 1rem 0 2rem;
